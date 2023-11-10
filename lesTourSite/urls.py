@@ -9,5 +9,9 @@ urlpatterns = [
     path("signup/", views.signUp, name="signup"),
     path("reservation/", views.reservation, name="reservation"),
     path("logout/", views.signOut, name="logout"),
-    path("signin/", views.signIn, name="signin")
+    path("signin/", views.signIn, name="signin"),
+    ## SEGUNDA PARCIAL ##
+    path("hoteles/", views.Hoteles, name="hoteles"),
+    path("personal/", views.Personal, name="personal"),
+    path("usuarios/", views.Usuarios, name="usuarios"),
 ]
